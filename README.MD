@@ -15,9 +15,10 @@ You can check CodeGenCsProject/CodeGenCsProject.sln to see generator and it's pu
 
 ## Sources
 
-Test Class source
+
 
 ````
+// Test Class source
 namespace TestNamesapce
 {
     public class TestClass
@@ -28,11 +29,11 @@ namespace TestNamesapce
         }
     }
 }
-```
 
-Generator source
 
-```
+// ====================================
+
+// Generator source
 using System.Text;
 using Microsoft.CodeAnalysis;
 
@@ -58,5 +59,3 @@ namespace TestCodeGen
         }
     }
 }
-
-```
